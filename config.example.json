@@ -1,0 +1,9 @@
+{
+  "groups": [
+    {
+      "name": "ivo",
+      "file": "./addrs",
+      "secret": "123"
+    }
+  ]
+}
