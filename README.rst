@@ -23,7 +23,7 @@ Run Server
 
 .. sourcecode:: sh
 
-   $ python api.py
+   $ python3 api.py
      * Running on http://127.0.0.1:5000/
      * Restarting with reloader
 
@@ -33,10 +33,9 @@ Use Curl
 .. sourcecode:: sh
     
    ## Add address
-   curl -X "POST" "http://localhost:5000/dsfdsfdsfdsffff123" \
+   curl -X "POST" "http://localhost:5000/dsfdsfdsfdsffff123f" \
      -H 'Authorization: 123' \
-     -H 'Content-Type: application/x-www-form-urlencoded; charset=utf-8' \
-     --data-urlencode "name=Alex 2"
+     -H 'Content-Type: application/x-www-form-urlencoded; charset=utf-8'
 
    ## Get addresses
    curl "http://localhost:5000/" \
