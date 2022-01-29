@@ -1,9 +1,5 @@
 {
-  "groups": [
-    {
-      "name": "ivo",
-      "file": "./addrs",
-      "secret": "123"
-    }
-  ]
+  "name": "ivo",
+  "file": "./addrs",
+  "secret": "123"
 }
